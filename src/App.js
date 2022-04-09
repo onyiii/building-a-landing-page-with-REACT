@@ -5,20 +5,7 @@ import Homepage from "./Homepage";
 function App() {
   return (
     <div className="App">
-      <div className="heading">
-        <div>
-          <img src="./images/logo.png" className="logo" alt="logo" />
-        </div>
-
-        <div className="companyName">
-          <p className="firstLine">
-            <strong>Lorem Ipsum</strong>
-          </p>
-          Lorem, ipsum dolor.
-        </div>
-        <Navbar />
-      </div>
-
+      <Navbar />
       <Homepage />
 
       <div className="wait">

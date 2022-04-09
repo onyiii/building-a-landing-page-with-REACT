@@ -22,9 +22,10 @@
   display: flex;
 }
 .companyName {
-  line-height: 0.4rem;
+  line-height: 1rem;
 }
 .home {
+  width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), #000),
     url("/public/images/background.jpg");
   height: 600px;
@@ -105,11 +106,52 @@ input {
   background-color: #007bff;
   color: #ffffff;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 800px) {
   .wait {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .heading {
+    margin-bottom: 4rem;
+  }
+  .logo {
+    max-width: 120px;
+    margin-left: 4rem;
+    margin-right: 1rem;
+  }
+  .registration {
+    display: block;
+    padding-top: 0.5rem;
+    margin-right: 3rem;
+  }
+  .submit {
+    width: 50%;
+    margin-top: 0px;
+    padding: 0.5rem;
+    margin-left: 80px;
+  }
+  .firstname,
+  .lastname {
+    width: 90%;
+  }
+  .home {
+    width: 100%;
+    margin: 0px;
+  }
+  .navbar li {
+    display: none;
+  }
+  .navbar button {
+    display: inline;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navbar button {
+    display: none;
   }
 }
