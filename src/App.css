@@ -107,7 +107,8 @@ input {
   color: #ffffff;
 }
 @media screen and (min-width: 800px) {
-  .wait {
+  .wait,
+  .home {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
