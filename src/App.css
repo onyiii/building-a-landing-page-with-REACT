@@ -1,53 +1,50 @@
-.wait {
-  max-width: 700px;
-  border: 1px solid #ee12df;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  /* flex-wrap: wrap;
-  justify-content: center; */
-  align-items: center;
 }
-.first {
-  width: 300px;
-}
+
 .logo {
-  max-width: 60px;
+  width: 60px;
   margin-left: 4rem;
   margin-right: 1rem;
 }
-.heading {
-  height: 4rem;
+.main-heading {
   display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: space-between;
 }
-.companyName {
-  line-height: 1rem;
+.heading {
+  display: flex;
+  padding: 0.5rem;
 }
+
 .home {
-  width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), #000),
     url("/public/images/background.jpg");
-  height: 600px;
+
   background-size: cover;
   background-color: #424242;
   margin-bottom: 50px;
   color: #f0f8ff;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .navbar {
   display: flex;
   justify-content: end;
-  margin-left: 35rem;
 }
 .navbar a {
   text-decoration: none;
   color: #62a7f1;
 }
-.navbar li {
+.navbar ul {
   list-style: none;
-  float: left;
+  display: flex;
+}
+.navbar li {
   padding: 1rem;
 }
 .iconss {
@@ -106,53 +103,20 @@ input {
   background-color: #007bff;
   color: #ffffff;
 }
-@media screen and (min-width: 800px) {
-  .wait,
-  .home {
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-  }
+.show-links {
+  height: 400px;
 }
-@media screen and (max-width: 1200px) {
-  .heading {
-    margin-bottom: 4rem;
-  }
-  .logo {
-    max-width: 120px;
-    margin-left: 4rem;
-    margin-right: 1rem;
-  }
-  .registration {
-    display: block;
-    padding-top: 0.5rem;
-    margin-right: 3rem;
-  }
-  .submit {
-    width: 50%;
-    margin-top: 0px;
-    padding: 0.5rem;
-    margin-left: 80px;
-  }
-  .firstname,
-  .lastname {
-    width: 90%;
-  }
-  .home {
-    width: 100%;
-    margin: 0px;
-  }
-  .navbar li {
-    display: none;
-  }
-  .navbar button {
-    display: inline;
-    cursor: pointer;
-  }
+.navbar button {
+  cursor: pointer;
 }
-@media screen and (min-width: 1200px) {
-  .navbar button {
-    display: none;
-  }
+.wait {
+  max-width: 700px;
+  border: 1px solid #ee12df;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap;
+  justify-content: center; */
+  align-items: center;
 }

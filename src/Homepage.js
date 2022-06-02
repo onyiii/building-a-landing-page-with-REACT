@@ -37,6 +37,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+
       <div className="registration">
         <p>
           <strong>
