@@ -79,7 +79,7 @@
 }
 input {
   margin-bottom: 2rem;
-  padding: 1rem;
+  padding: 0.5rem;
   /* border-radius: 5%; */
   box-shadow: #424242;
 }
@@ -119,4 +119,14 @@ input {
   /* flex-wrap: wrap;
   justify-content: center; */
   align-items: center;
+}
+
+@media screen and (max-width: 420px) {
+  input {
+    border: none;
+    border-bottom: 1px solid #000;
+  }
+  .base {
+    white-space: nowrap;
+  }
 }

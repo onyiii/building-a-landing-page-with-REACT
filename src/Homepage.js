@@ -5,36 +5,30 @@ const Homepage = () => {
     <div className="home">
       <div className="theHome">
         <div className="writeUp">
-          <h1>Lorem Ipsum Dolor Sit Amet Prodosalor.</h1>
-          <span>
+          <h2>Lorem Ipsum Dolor Sit Amet Prodosalor.</h2>
+
+          <div>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis odio
             quidem sapiente, ullam iure dolor?
-          </span>
+          </div>
         </div>
         <div className="base">
-          <div>
-            <ul className="iconss">
-              <li>
-                <strong>Lorem, ipsum.</strong>
-              </li>
-              <li>
-                <MdLocationOn />
-                Location
-              </li>
-              <li>
-                <MdCalendarToday /> Start Date
-              </li>
-              <li>
-                <MdQueryBuilder />
-                Duration
-              </li>
-            </ul>
-          </div>
-          <div className="others">
-            Palmgrove, Lagos <br />
-            16/04/2022 <br />
-            16 weeks
-          </div>
+          <ul className="iconss">
+            <li>
+              <strong>Lorem, ipsum.</strong>
+            </li>
+            <li>
+              <MdLocationOn />
+              Location &emsp;&emsp;Palmgrove, Lagos
+            </li>
+            <li>
+              <MdCalendarToday /> Start Date&emsp;&emsp; 16/04/2022
+            </li>
+            <li>
+              <MdQueryBuilder />
+              Duration&emsp;&emsp;16 weeks
+            </li>
+          </ul>
         </div>
       </div>
 
@@ -44,6 +38,7 @@ const Homepage = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </strong>
         </p>
+        <br />
         <form className="form">
           <label for="firstName">
             <input
